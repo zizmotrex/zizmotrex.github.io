@@ -1,0 +1,15 @@
+title: Your Blog Title
+description: A short description of your blog
+baseurl: ""
+url: "https://zizmotrex.github.io"
+permalink: /:year/:month/:day/:title/
+
+markdown: kramdown
+theme: minima
+
+author:
+  name: Ouaziz
+  email: ouazizmed2@email.com
+
+plugins:
+  - jekyll-feed
