@@ -6,6 +6,7 @@ body {
 
 main {
     padding-left: 450px;
+    padding-right: 70px;
 }
 
 
@@ -50,6 +51,7 @@ main {
 
 .post {
     margin-bottom: 60px;
+    text-align: justify;
 }
 
 .post a {
@@ -125,8 +127,6 @@ hr {
 
 .title_index{
     color: #EC4D37;
-    font-style: bold;
-    size: 40cm;
 }
 
 
