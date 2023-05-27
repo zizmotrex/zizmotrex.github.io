@@ -1,48 +1,37 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #f5f5f5;
+.sidebar {
+    background-color: #333;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
     padding: 1rem;
 }
 
-header h1, header nav {
-    display: inline;
-    margin: 0;
+.sidebar .profile-picture img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
 
-header nav {
-    float: right;
+.sidebar .social-media {
+    margin-top: 1rem;
 }
 
-header nav a {
-    color: #333;
-    margin-left: 1rem;
-    text-decoration: none;
+.sidebar .social-media a {
+    margin-right: 1rem;
 }
 
-header nav a:hover {
-    text-decoration: underline;
+.sidebar .social-media a:last-child {
+    margin-right: 0;
 }
 
-h1, h2 {
-    color: #333;
-}
-
-main {
-    padding: 1rem;
-}
-
-article {
-    margin-bottom: 2rem;
-}
-
-footer {
-    background-color: #f5f5f5;
-    padding: 1rem;
-    text-align: center;
+.sidebar .social-media img {
+    width: 24px;
+    height: 24px;
 }
