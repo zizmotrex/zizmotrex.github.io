@@ -6,4 +6,5 @@ title: Home
     <p>{{ post.date | date: "%B %-d, %Y" }}</p>
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
     <p>{{ post.description }}</p>
+    <p>{{ post.excerpt }}</p>
 {% endfor %}
