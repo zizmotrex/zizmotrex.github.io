@@ -1,5 +1,15 @@
 <header>
-    <h1><a href="{{ '/' | relative_url }}">Zizmotrex</a></h1>
+    <div class="sidebar">
+        <div class="profile-picture">
+            <img src="{{ '/assets/images/your-picture.jpg' | relative_url }}" alt="Profile Picture">
+        </div>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"><img src="{{ '/assets/images/linkedin-logo.png' | relative_url }}" alt="LinkedIn"></a>
+            <a href="https://twitter.com/your-twitter-handle" target="_blank"><img src="{{ '/assets/images/twitter-logo.png' | relative_url }}" alt="Twitter"></a>
+            <a href="https://github.com/your-github-username" target="_blank"><img src="{{ '/assets/images/github-logo.png' | relative_url }}" alt="Github"></a>
+        </div>
+    </div>
+    <h1><a href="{{ '/' | relative_url }}">Your Blog Title</a></h1>
     <nav>
         <a href="{{ '/portfolio' | relative_url }}">Portfolio</a>
     </nav>
