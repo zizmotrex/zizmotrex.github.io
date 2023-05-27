@@ -3,14 +3,22 @@
         <div class="profile-picture">
             <img src="{{ '/assets/images/Zizmotrex_logo.png' | relative_url }}" alt="Profile Picture">
         </div>
+        <div class="sidebar-title">
+            <p>ZIZMOTREX</p>
+        </div>
+        <div class="sidebar-subtitle">
+            <p>Learning blog</p>
+        </div>
         <div class="social-media">
-            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"><img src="{{ '/assets/images/linkedin-logo.png' | relative_url }}" alt="LinkedIn"></a>
-            <a href="https://twitter.com/your-twitter-handle" target="_blank"><img src="{{ '/assets/images/twitter-logo.png' | relative_url }}" alt="Twitter"></a>
-            <a href="https://github.com/your-github-username" target="_blank"><img src="{{ '/assets/images/github-logo.png' | relative_url }}" alt="Github"></a>
+            <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank">
+				<i class="fa-brands fa-linkedin-in fa-xl" style="color: #ec4d37;"></i>
+			</a>
+            <a href="https://twitter.com/your-twitter-handle" target="_blank">
+                <i class="fa-brands fa-twitter fa-xl" style="color: #ec4d37;"></i>
+            </a>
+            <a href="https://github.com/ouazizmed" target="_blank">
+                <i class="fa-brands fa-github fa-xl" style="color: #ec4d37;"></i>
+            </a>
         </div>
     </div>
-    <h1><a href="{{ '/' | relative_url }}">Your Blog Title</a></h1>
-    <nav>
-        <a href="{{ '/portfolio' | relative_url }}">Portfolio</a>
-    </nav>
 </header>
