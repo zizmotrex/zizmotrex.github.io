@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-    <title>Home</title>
+    <title>Datadog Integration</title>
     <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
@@ -37,49 +37,28 @@
 </header>
 
     <main>
-        <h1 class="title_index">
-    Zizmotrex
-</h1>
-<hr/>
-
-  <div class="post">
+        <article>
+    <h1>Datadog Integration</h1>
     <p>May 27, 2023</p>
-    <h2><a href="/2023/05/27/Datadog_Integration/">Datadog Integration</a></h2>
-    <p>How to create Datadog Integration</p>
-  </div>
+    <h1 id="datadog">Datadog</h1>
 
-  <div class="post">
-    <p>May 27, 2023</p>
-    <h2><a href="/2023/05/27/MITRE_ATT&CK/">MITRE ATT&CK</a></h2>
-    <p>MITRE ATT&CK for beginner</p>
-  </div>
+<h1 id="datadog-agent">Datadog Agent</h1>
 
-  <div class="post">
-    <p>May 27, 2023</p>
-    <h2><a href="/2023/05/27/CVE/">CVE: An Essential Guide for Cybersecurity Practitioners</a></h2>
-    <p>Unravel the intricacies of Common Vulnerabilities and Exposures (CVE), illuminating its critical role in bolstering cybersecurity.</p>
-  </div>
+<h1 id="datadog-integration">Datadog integration</h1>
 
+<p>Integrations enable you to collect data on specific services using Datadog. You can use Integrations to bring together metrics and logs from your infrastructure and applications into Datadog to gain insight into the unified system as a whole.</p>
 
+<p>Datadog provides three main types of integrations:</p>
 
-<ul class="pager">
-    <li class="previous disabled">
-        <a href="">&larr; Next</a>
-    </li>
-    
-    <li>
-        <span class="page_number">Page: 1 of 1</span>
-    </li>
-    
-    <li class="next disabled">
-        <a href="">Previous &rarr;</a>
-    </li>
-    </ul>
+<ul>
+  <li>Agent-based integrations are installed with the Datadog Agent and use a Python class method called check to define the metrics to collect.</li>
+  <li>Authentication (crawler) based integrations are set up in Datadog where you provide credentials for obtaining metrics with the API. These include popular integrations like Slack, AWS, Azure, and PagerDuty.</li>
+  <li>Library integrations use the Datadog API to allow you to monitor applications based on the language they are written in, like Node.js or Python.</li>
+</ul>
 
-  
-  
-  
+<p>Many times, Datadog’s library of over 400 built-in integrations is sufficient for your use case. However, if you are releasing your own service that you would like to integrate with Datadog or would like a custom integration, you can build your own!</p>
 
+</article>
 
     </main>
     <div class="footer-pager">
